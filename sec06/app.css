@@ -1,0 +1,36 @@
+h1 {
+    color: teal;
+    /* background-color: #5fcffc; */
+    text-align: right;
+    width: 50%;
+    font-weight: normal;
+    text-decoration: blue wavy underline;
+    letter-spacing: 15px;
+    font-size: 60px;
+}
+
+h2 {
+    color: indigo;
+    /* background-color: rgb(89, 151, 0); */
+}
+
+button {
+    background-color: magenta;
+    /* color: cyan; */
+}
+
+p {
+    color: darkblue;
+    line-height: 2;
+    /* background: orange; */
+    /* font-weight: bold; */
+}
+
+body {
+    background-color: #fff
+}
+
+a {
+    text-decoration: none;
+    color: red
+}

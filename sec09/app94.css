@@ -1,0 +1,46 @@
+body {
+    width: 800px
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #3d405b;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+
+#middle {
+    background-color: #81b29a;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 100px;
+    left: -50px;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: aqua;
+}
+
+section {
+    position: relative;
+    border: 1px solid black;
+
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
